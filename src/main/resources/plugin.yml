@@ -1,0 +1,24 @@
+name: CommandChest
+version: '${project.version}'
+main: com.commandchest.CommandChest
+api-version: '1.21'
+author: CommandChest
+description: Transform chests into command-executing blocks
+
+softdepend: [FancyHolograms]
+
+commands:
+  cchest:
+    description: Get the configuration stick
+    usage: /<command>
+    permission: commandchest.use
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  commandchest.use:
+    description: Allows use of the /cchest command
+    default: op
+  commandchest.admin:
+    description: Allows configuration of command chests
+    default: op
+

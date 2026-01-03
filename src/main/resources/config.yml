@@ -1,0 +1,80 @@
+# CommandChest Configuration File
+# All messages and UI text can be customized here for translation
+
+messages:
+  # Command messages
+  command:
+    stick-received: "&aYou have received the configuration stick!"
+    no-permission: "&cYou don't have permission to use this command."
+  
+  # GUI messages
+  gui:
+    main-title: "&6Chest Configuration"
+    name-editor-title: "&6Edit Chest Name"
+    
+    # Button labels
+    button-name: "&eChest Name"
+    button-command: "&eCommand"
+    button-cooldown: "&eCooldown"
+    button-activation: "&eActivation Method"
+    button-item: "&eRequired Item"
+    button-delete: "&cDelete Configuration"
+    button-save: "&aSave"
+    button-close: "&7Close"
+    button-back: "&7Back"
+    button-add-line: "&aAdd Line"
+    button-remove-line: "&cRemove Line"
+    button-toggle-visibility: "&eToggle Visibility"
+    
+    # Button descriptions
+    description-name: "&7Click to edit the chest name"
+    description-command: "&7Click to set the command"
+    description-cooldown: "&7Click to set cooldown (seconds)"
+    description-activation-left: "&7Activate on left click"
+    description-activation-right: "&7Activate on right click"
+    description-activation-both: "&7Activate on both clicks"
+    description-activation-shift: "&7Activate on shift click"
+    description-item: "&7Place item here to require it"
+    description-delete: "&7Click to delete this configuration"
+    description-save: "&7Click to save changes"
+    description-close: "&7Click to close"
+    description-back: "&7Click to go back"
+    description-add-line: "&7Click to add a new line"
+    description-remove-line: "&7Click to remove this line"
+    description-toggle-visibility: "&7Click to toggle name visibility"
+    
+    # Status indicators
+    status-enabled: "&aEnabled"
+    status-disabled: "&cDisabled"
+    status-current: "&7Current: &e{value}"
+    status-none: "&7None"
+    status-visible: "&aVisible"
+    status-hidden: "&cHidden"
+  
+  # Chat input prompts
+  chat:
+    enter-command: "&aPlease type the command to execute (without /):"
+    enter-cooldown: "&aPlease type the cooldown in seconds:"
+    enter-name-line: "&aPlease type a line for the chest name:"
+    cancel-input: "&cConfiguration cancelled."
+    invalid-cooldown: "&cInvalid cooldown. Please enter a number."
+    command-set: "&aCommand set to: &e{command}"
+    cooldown-set: "&aCooldown set to: &e{cooldown} seconds"
+    name-line-added: "&aName line added!"
+  
+  # Activation messages
+  activation:
+    on-cooldown: "&cThis chest is on cooldown. Please wait {time} seconds."
+    item-required: "&cYou must be holding the required item to use this chest."
+    activation-method-mismatch: "&cThis chest cannot be activated with this click type."
+    command-executed: "&aCommand executed!"
+    command-failed: "&cFailed to execute command."
+  
+  # Configuration messages
+  config:
+    chest-configured: "&aChest configured successfully!"
+    chest-deleted: "&aChest configuration deleted."
+    chest-not-configured: "&cThis chest is not configured."
+    invalid-block: "&cYou can only configure container blocks (chests, barrels, etc.)."
+    no-stick: "&cYou must be holding the configuration stick to configure chests."
+
